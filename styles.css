@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: green;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -66,7 +66,7 @@ form input, form button {
 }
 
 footer {
-    background: #333;
+    background: green;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
