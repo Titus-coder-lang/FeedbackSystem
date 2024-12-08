@@ -3,24 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Feedback System</title>
+    <title>Feedback System</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Ensure horizontal navigation for tabs */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: green;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a.social-link {
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Customer Feedback System</h1>
+        <h1>Welcome to Feedback System</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="feedback.html">Feedback</a>
-            <a href="reports.php">Reports</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h2>Welcome to the Feedback System</h2>
-        <p>We value your feedback! Please provide your input or view generated reports.</p>
+        <h2>Connect with Us</h2>
+        <p>Explore our feedback platform for better customer engagement!</p>
     </main>
     <footer>
-        <p>&copy; 2024 Feedback System</p>
+        <p>&copy; 2024 Feedback System. All Rights Reserved.</p>
+        <!-- Facebook link -->
+        <a href="https://www.facebook.com" target="_blank" class="social-link">
+            <i class="fab fa-facebook-square" style="font-size: 2rem; color: #1877F2;"></i> Follow us on Facebook
+        </a>
     </footer>
 </body>
 </html>
